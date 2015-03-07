@@ -8,10 +8,12 @@ class DirHandler(object):
 
     def __init__(self):
         self = self
+	
+	
     
     def create_dir(self):
         """ Create collection directory """
-        _ofolder = var.outputdir + "/" + os.getenv('COMPUTERNAME') + "-" + var.timestmp
+        _ofolder = var.outputdir + "\\" + os.getenv('COMPUTERNAME') + "-" + var.timestmp
         var.outputdir = _ofolder
         try:
             if not os.path.exists(var.outputdir):
@@ -27,8 +29,8 @@ class DirHandler(object):
                 
     def create_subdirs(self):
         """ Create collection Sub-directories """
-        os.makedirs(var.outputdir + "/Processes")
-        os.makedirs(var.outputdir + "/SysInfo")
+        os.makedirs(var.outputdir + "/Process")
+        os.makedirs(var.outputdir + "/System")
         os.makedirs(var.outputdir + "/Files")
         os.makedirs(var.outputdir + "/Network")
         os.makedirs(var.outputdir + "/Memory")

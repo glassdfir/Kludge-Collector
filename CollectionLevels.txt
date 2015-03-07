@@ -1,0 +1,32 @@
+1. Quick
+	Network
+	Running Processes
+	Running Services
+	Copy SYSTEM Log
+	Copy Security Log
+	Copy Application Log
+	Copy $MFT
+	Copy Registry Hives
+	Scheduled Tasks
+	Web History
+2. Full
+	Memory Collection
+		Volatility
+	Network
+	Running Processes
+	Running Services
+	Copy SYSTEM Log
+	Copy Security Log
+	Copy Application Log
+	Copy $MFT
+	Copy Registry Hives
+	Scheduled Tasks
+	Web History
+	RegRipper
+
+3. Quick then Full
+	Do quick pull then the rest of full
+
+	
+	
+	
